@@ -1,0 +1,95 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #262a2f;
+}
+
+.container {
+  width: 100%;
+  max-width: 400px;
+  padding: 25px 35px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  background: #fff;
+  border-radius: 10px;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+
+.container p {
+  font-weight: 600;
+  font-size: 15px;
+  margin-bottom: 8px;
+}
+
+.container input {
+  width: 100%;
+  height: 50px;
+  border: 1px solid #494eea;
+  outline: 0;
+  padding: 10px;
+  margin: 10px 0 20px;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.container button {
+  width: 100%;
+  height: 50px;
+  border: 0;
+  outline: 0;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+  font-weight: 500;
+  color: #fff;
+  background: #494eea;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  cursor: pointer;
+}
+
+.imgBox {
+  width: 200px;
+  border-radius: 5px;
+  max-height: 0;
+  overflow: hidden;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+  transition: max-height 1s;
+  -webkit-transition: max-height 1s;
+  -moz-transition: max-height 1s;
+  -ms-transition: max-height 1s;
+  -o-transition: max-height 1s;
+}
+
+.imgBox img {
+  width: 100%;
+  padding: 10px;
+}
+
+.imgBox.show-img {
+  max-height: 300px;
+  margin: 10px auto;
+  border: 1px solid #d1d1d1;
+}
